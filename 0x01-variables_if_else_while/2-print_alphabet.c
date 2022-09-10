@@ -7,21 +7,11 @@
  */
 int main(void)
 {
-	int num;
-	int p;
+	int ch;
 
-	num = 97;
-	while (num <= 122)
-	putchar(num);
-	num++;
-
-	p = 97;
-	while (p <= 122)
-	{
-		putchar(p);
-		p++;
-	}
-
+		/* print lowercase letters*/
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
